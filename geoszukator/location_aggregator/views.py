@@ -86,7 +86,7 @@ def insert_to_database(location, result):
                                         is_eu=location["location"]["is_eu"]
                                         )
     except:
-        result["message"] = "country exists"
+        result["message"] = "the country exists"
 
     # step 6 insert to table regions
     try:
